@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "myblog.jwt",
+      "type": "com.example.myblog.utils.JwtUtils",
+      "sourceType": "com.example.myblog.utils.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "myblog.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.myblog.utils.JwtUtils"
+    },
+    {
+      "name": "myblog.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.example.myblog.utils.JwtUtils"
+    },
+    {
+      "name": "myblog.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.example.myblog.utils.JwtUtils"
+    }
+  ],
+  "hints": []
+}
